@@ -1,0 +1,6 @@
+{
+  "name": "Scrap Collector",
+  "description": "Scrap Collector collects recyclable scrap metals including aluminium, copper, brass, iron, steel, electric motors, AC units, and electronic scrap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
