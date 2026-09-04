@@ -32,6 +32,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onRequestPickup }) => {
     { label: t('nav_how_it_works'), href: '#how-it-works' },
     { label: t('nav_prices'), href: '#prices' },
     { label: t('nav_gallery'), href: '#gallery' },
+    { label: t('nav_location'), href: '#location' },
     { label: t('nav_contact'), href: '#contact' },
   ];
 

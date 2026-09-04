@@ -134,6 +134,14 @@ export const Footer: React.FC<FooterProps> = ({ onRequestPickup }) => {
               </li>
               <li>
                 <button
+                  onClick={() => handleNavClick('#location')}
+                  className="text-slate-400 hover:text-emerald-300 transition-colors cursor-pointer text-left"
+                >
+                  {t('nav_location')}
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => handleNavClick('#contact')}
                   className="text-slate-400 hover:text-emerald-300 transition-colors cursor-pointer text-left"
                 >

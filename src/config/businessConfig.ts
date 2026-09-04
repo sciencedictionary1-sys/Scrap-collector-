@@ -31,10 +31,12 @@ export const BUSINESS_EMAIL: string = "him511046@gmail.com";
 export const FACEBOOK_URL: string = ""; // e.g. "https://facebook.com/scrapcollector"
 
 // 3. Business Physical Info & Operating Hours
-export const BUSINESS_ADDRESS: string = ""; // e.g. "Industrial Recycling Hub, Yard 4"
-export const BUSINESS_ADDRESS_BM: string = "";
-export const BUSINESS_HOURS: string = ""; // e.g. "Monday – Saturday: 8:00 AM – 6:00 PM"
-export const BUSINESS_HOURS_BM: string = "";
+export const SHOP_NAME: string = "Kedai Besi Buruk";
+export const BUSINESS_ADDRESS: string = "Lorong PJS 6/1e, Bandar Sunway, 46000 Petaling Jaya, Selangor, Malaysia.";
+export const BUSINESS_ADDRESS_BM: string = "Lorong PJS 6/1e, Bandar Sunway, 46000 Petaling Jaya, Selangor, Malaysia.";
+export const GOOGLE_MAPS_SHOP_URL: string = "https://maps.app.goo.gl/nxfabzXJPdP8r5km6?g_st=awb";
+export const BUSINESS_HOURS: string = "We are ready for your service, we are always active 24/7 hours";
+export const BUSINESS_HOURS_BM: string = "Kami sedia berkhidmat untuk anda, kami sentiasa aktif 24/7 jam";
 
 // 4. Default Communication Templates
 export const DEFAULT_WHATSAPP_MESSAGE_EN: string = 
@@ -528,7 +530,7 @@ export const ACCEPTED_MATERIALS: AcceptedMaterial[] = [
     ],
     prepTips: "Group bulky iron near a loading area for truck crane or forklift access.",
     prepTipsBm: "Kumpulkan besi besar di laluan masuk atau kawasan mudah capai lori pengangkut.",
-    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80",
     price: "100(RAM )",
     priceBm: "100(RAM )",
     unit: "price per Kilogramme",
@@ -829,7 +831,7 @@ export const ACCEPTED_MATERIALS: AcceptedMaterial[] = [
     ],
     prepTips: "Do not strip copper out — complete intact motors receive full electric motor pricing.",
     prepTipsBm: "Jangan keluarkan gulungan tembaga — motor lengkap mendapat penilaian harga penuh.",
-    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
     price: "100(RAM )",
     priceBm: "100(RAM )",
     unit: "price per Kilogramme",
@@ -958,7 +960,7 @@ export const ACCEPTED_MATERIALS: AcceptedMaterial[] = [
     ],
     prepTips: "Ensure pipe stubs are crimped or capped to prevent oil spills during handling.",
     prepTipsBm: "Pastikan hujung paip dikapit untuk mengelakkan tumpahan baki minyak.",
-    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
     price: "100(RAM )",
     priceBm: "100(RAM )",
     unit: "price per Kilogramme",
@@ -1832,7 +1834,7 @@ export const GALLERY_IMAGES: GalleryItem[] = [
     category: "Copper",
     description: "Bright copper cables and stripped plumbing pipes ready for remelting.",
     descriptionBm: "Kabel tembaga berkilat dan paip tembaga bersih sedia untuk dicairkan semula.",
-    imageUrl: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1000&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: "gal-3",
@@ -1841,7 +1843,7 @@ export const GALLERY_IMAGES: GalleryItem[] = [
     category: "Iron & Steel",
     description: "Recycled structural steel and scrap iron ready for furnace processing.",
     descriptionBm: "Besi struktur dan besi buruk berat sedia untuk peleburan relau.",
-    imageUrl: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1000&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: "gal-4",
@@ -1850,7 +1852,7 @@ export const GALLERY_IMAGES: GalleryItem[] = [
     category: "Motors",
     description: "Copper-wound electric motors collected for non-ferrous metal recovery.",
     descriptionBm: "Motor elektrik bergulung tembaga untuk pemulihan logam bernilai tinggi.",
-    imageUrl: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: "gal-5",

@@ -11,6 +11,7 @@ export interface Translations {
   nav_why_us: string;
   nav_impact: string;
   nav_gallery: string;
+  nav_location: string;
   nav_contact: string;
   nav_request_pickup: string;
   nav_pickup_short: string;
@@ -139,6 +140,27 @@ export interface Translations {
   cta_pickup_btn: string;
   cta_call_btn: string;
 
+  // Location Section
+  loc_badge: string;
+  loc_heading: string;
+  loc_subheading: string;
+  loc_shop_card_title: string;
+  loc_shop_name: string;
+  loc_shop_address_line1: string;
+  loc_shop_address_line2: string;
+  loc_shop_address_line3: string;
+  loc_view_maps_btn: string;
+  loc_coverage_card_title: string;
+  loc_coverage_desc: string;
+  loc_pickup_tagline: string;
+  loc_sites_homes: string;
+  loc_sites_shops: string;
+  loc_sites_factories: string;
+  loc_sites_construction: string;
+  loc_sites_offices: string;
+  loc_sites_warehouses: string;
+  loc_sites_businesses: string;
+
   // Contact Section
   contact_badge: string;
   contact_heading: string;
@@ -229,6 +251,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     nav_why_us: 'Why Us',
     nav_impact: 'Impact',
     nav_gallery: 'Gallery',
+    nav_location: 'Location',
     nav_contact: 'Contact',
     nav_request_pickup: 'Request Pickup',
     nav_pickup_short: 'Pickup',
@@ -357,6 +380,27 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     cta_pickup_btn: '🚚 Request Pickup',
     cta_call_btn: '📞 Call Now',
 
+    // Location Section
+    loc_badge: 'LOCATION',
+    loc_heading: 'We Pick Up Scrap All Over Malaysia 🇲🇾',
+    loc_subheading: 'We provide convenient scrap collection services across Malaysia. Our team collects scrap from homes, shops, factories, construction sites, offices, warehouses, and businesses.',
+    loc_shop_card_title: 'Our Shop Location',
+    loc_shop_name: 'Kedai Besi Buruk',
+    loc_shop_address_line1: 'Lorong PJS 6/1e, Bandar Sunway,',
+    loc_shop_address_line2: '46000 Petaling Jaya, Selangor, Malaysia.',
+    loc_shop_address_line3: 'Open for scrap drop-offs & bulk weighing',
+    loc_view_maps_btn: 'View Our Shop on Google Maps',
+    loc_coverage_card_title: 'Nationwide On-Site Scrap Collection',
+    loc_coverage_desc: 'Doorstep pickup logistics with certified portable weighing scales and direct cash/transfer payment.',
+    loc_pickup_tagline: 'We collect scrap directly from:',
+    loc_sites_homes: 'Residential Homes',
+    loc_sites_shops: 'Retail Shops',
+    loc_sites_factories: 'Industrial Factories',
+    loc_sites_construction: 'Construction Sites',
+    loc_sites_offices: 'Commercial Offices',
+    loc_sites_warehouses: 'Storage Warehouses',
+    loc_sites_businesses: 'Local Businesses',
+
     // Contact Section
     contact_badge: 'Contact Channels',
     contact_heading: 'Request Scrap Collection',
@@ -446,6 +490,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     nav_why_us: 'Kelebihan Kami',
     nav_impact: 'Kesan Alam',
     nav_gallery: 'Galeri',
+    nav_location: 'Lokasi',
     nav_contact: 'Hubungi Kami',
     nav_request_pickup: 'Tempah Pengambilan',
     nav_pickup_short: 'Pengambilan',
@@ -573,6 +618,27 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     cta_subheading: 'Jangan buang begitu sahaja. Hubungi',
     cta_pickup_btn: '🚚 Tempah Pengambilan',
     cta_call_btn: '📞 Hubungi Sekarang',
+
+    // Location Section
+    loc_badge: 'LOKASI KAMI',
+    loc_heading: 'Kami Mengambil Barang Lusuh di Seluruh Malaysia 🇲🇾',
+    loc_subheading: 'Kami menyediakan perkhidmatan pengumpulan dan pengambilan barang lusuh yang mudah di seluruh Malaysia. Pasukan kami mengambil barang lusuh dari rumah, kedai, kilang, tapak pembinaan, pejabat, gudang, dan premis perniagaan.',
+    loc_shop_card_title: 'Lokasi Kedai Kami',
+    loc_shop_name: 'Kedai Besi Buruk',
+    loc_shop_address_line1: 'Lorong PJS 6/1e, Bandar Sunway,',
+    loc_shop_address_line2: '46000 Petaling Jaya, Selangor, Malaysia.',
+    loc_shop_address_line3: 'Menerima hantaran terus & timbangan pukal di kedai',
+    loc_view_maps_btn: 'Lihat Kedai Kami di Google Maps',
+    loc_coverage_card_title: 'Pengambilan Barang Lusuh Terus Ke Lokasi',
+    loc_coverage_desc: 'Logistik lori pengangkut dengan timbangan mudah alih disahkan dan bayaran tunai / pemindahan terus.',
+    loc_pickup_tagline: 'Kami mengambil barang lusuh terus daripada:',
+    loc_sites_homes: 'Rumah Kediaman',
+    loc_sites_shops: 'Kedai & Premis Runcit',
+    loc_sites_factories: 'Kilang & Industri',
+    loc_sites_construction: 'Tapak Pembinaan',
+    loc_sites_offices: 'Pejabat Komersial',
+    loc_sites_warehouses: 'Gudang & Stor',
+    loc_sites_businesses: 'Premis Perniagaan',
 
     // Contact Section
     contact_badge: 'Saluran Perhubungan',

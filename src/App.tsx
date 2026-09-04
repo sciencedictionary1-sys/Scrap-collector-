@@ -10,6 +10,7 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { EnvironmentalImpact } from './components/EnvironmentalImpact';
 import { Gallery } from './components/Gallery';
 import { CallToAction } from './components/CallToAction';
+import { LocationSection } from './components/LocationSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { RequestPickupModal } from './components/RequestPickupModal';
@@ -91,7 +92,10 @@ export default function App() {
         {/* 10. Call to Action Banner */}
         <CallToAction onRequestPickup={() => handleOpenPickupModal('sell')} />
 
-        {/* 11. Contact Section */}
+        {/* 11. Location & Coverage Section */}
+        <LocationSection onRequestPickup={() => handleOpenPickupModal('pickup')} />
+
+        {/* 12. Contact Section */}
         <ContactSection onRequestPickup={() => handleOpenPickupModal('pickup')} />
       </main>
 
