@@ -42,15 +42,20 @@ export const Footer: React.FC<FooterProps> = ({ onRequestPickup }) => {
           {/* Brand Column */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-900/30">
-                <Recycle className="w-6 h-6 animate-pulse" />
+              <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-lg shadow-emerald-950/40 ring-2 ring-emerald-400/40 shrink-0">
+                <img
+                  src="/assets/brand_logo.jpg"
+                  alt={`${BUSINESS_NAME} Logo`}
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div>
                 <span className="font-black text-xl tracking-tight text-white block">
                   {BUSINESS_NAME.toUpperCase()}
                 </span>
                 <span className="text-[11px] text-emerald-400 font-semibold tracking-wider uppercase">
-                  Recycling & Collection Service
+                  {t('footer_brand_subtitle')}
                 </span>
               </div>
             </div>

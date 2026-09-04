@@ -30,7 +30,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onRequestPickup 
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-100/90 text-emerald-800 text-xs font-bold tracking-wide uppercase mb-3 border border-emerald-200">
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-            <span>{isBM ? 'Hubungi Kami' : 'Contact Channels'}</span>
+            <span>{t('contact_badge')}</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             {t('contact_heading')}

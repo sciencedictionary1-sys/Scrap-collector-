@@ -63,15 +63,20 @@ export const Navbar: React.FC<NavbarProps> = ({ onRequestPickup }) => {
             className="flex items-center gap-2.5 group focus:outline-none rounded-lg min-w-0 shrink"
             aria-label={`${BUSINESS_NAME} Home`}
           >
-            <div className="w-8 h-8 sm:w-9 sm:h-9 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-xl flex items-center justify-center text-white font-bold text-base sm:text-lg shadow-xs group-hover:scale-105 transition-transform shrink-0 ring-2 ring-emerald-500/20">
-              ♻️
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform shrink-0 ring-2 ring-emerald-500/30 bg-white">
+              <img
+                src="/assets/brand_logo.jpg"
+                alt={`${BUSINESS_NAME} Logo`}
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div className="flex flex-col min-w-0">
               <span className="text-xs min-[360px]:text-sm sm:text-base md:text-lg font-black tracking-tight text-slate-900 leading-none truncate max-w-[135px] min-[360px]:max-w-[170px] min-[420px]:max-w-[240px] sm:max-w-none group-hover:text-emerald-700 transition-colors">
                 {BUSINESS_NAME.toUpperCase()}
               </span>
               <span className="hidden sm:inline-block text-[10px] font-bold text-emerald-600 tracking-wider uppercase">
-                Malaysia Scrap & Recycling
+                {t('nav_brand_subtitle')}
               </span>
             </div>
           </a>

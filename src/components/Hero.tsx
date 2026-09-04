@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestPickup, onExploreMaterials 
                 {/* Floating Location Badge */}
                 <div className="absolute top-6 left-6 z-20 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md border border-emerald-400/40 text-emerald-300 text-xs font-bold shadow-lg">
                   <MapPin className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>Malaysia Wide Collection</span>
+                  <span>{t('hero_location_badge')}</span>
                 </div>
 
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-emerald-950 shadow-inner">

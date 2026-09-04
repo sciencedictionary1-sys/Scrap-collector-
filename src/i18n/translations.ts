@@ -2,6 +2,7 @@ import { Language } from '../types';
 
 export interface Translations {
   // Navigation & Header
+  nav_brand_subtitle: string;
   nav_home: string;
   nav_about: string;
   nav_materials: string;
@@ -20,6 +21,7 @@ export interface Translations {
   lang_switcher_title: string;
 
   // Hero Section
+  hero_location_badge: string;
   hero_badge: string;
   hero_headline: string;
   hero_subheadline: string;
@@ -53,8 +55,12 @@ export interface Translations {
   about_commitment: string;
 
   // What We Collect
+  collect_badge: string;
   collect_heading: string;
   collect_subheading: string;
+  collect_filter_label: string;
+  collect_all_materials: string;
+  collect_materials_count: string;
   collect_view_pricing: string;
   collect_common_items: string;
   collect_btn_sell: string;
@@ -134,6 +140,7 @@ export interface Translations {
   cta_call_btn: string;
 
   // Contact Section
+  contact_badge: string;
   contact_heading: string;
   contact_subheading: string;
   contact_call_title: string;
@@ -152,6 +159,7 @@ export interface Translations {
   contact_open_dialog_btn: string;
 
   // Footer
+  footer_brand_subtitle: string;
   footer_tagline: string;
   footer_description: string;
   footer_pickup_btn: string;
@@ -212,6 +220,7 @@ export interface Translations {
 export const TRANSLATIONS: Record<Language, Translations> = {
   en: {
     // Navigation & Header
+    nav_brand_subtitle: 'Malaysia Scrap & Recycling',
     nav_home: 'Home',
     nav_about: 'About',
     nav_materials: 'Materials',
@@ -230,6 +239,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     lang_switcher_title: 'Switch language / Tukar bahasa',
 
     // Hero Section
+    hero_location_badge: 'Malaysia Wide Collection',
     hero_badge: 'Professional & Eco-Friendly Collection',
     hero_headline: 'Sell Your Scrap Materials Easily & Promptly',
     hero_subheadline: 'We collect aluminium, copper, brass, iron, steel, electric motors, cables, and e-waste directly from your doorstep, factory, warehouse, or site. Transparent rates and hassle-free scheduling.',
@@ -263,8 +273,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     about_commitment: 'We believe that proper metal scrap segregation and transparent collection are essential for a sustainable circular economy. Our team ensures that every kilogram of scrap is processed responsibly.',
 
     // What We Collect
+    collect_badge: 'Material Catalog',
     collect_heading: 'What We Collect',
     collect_subheading: 'We accept a wide range of segregated scrap materials. Click any category for accepted items and preparation tips.',
+    collect_filter_label: 'Filter by Category:',
+    collect_all_materials: 'All Materials',
+    collect_materials_count: 'materials',
     collect_view_pricing: 'View Price Guidance',
     collect_common_items: 'Common Accepted Items',
     collect_btn_sell: 'Sell This',
@@ -344,6 +358,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     cta_call_btn: '📞 Call Now',
 
     // Contact Section
+    contact_badge: 'Contact Channels',
     contact_heading: 'Request Scrap Collection',
     contact_subheading: 'How would you like to contact us for pickup and scrap price inquiries?',
     contact_call_title: 'Call Us',
@@ -362,6 +377,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     contact_open_dialog_btn: '🚚 Open Pickup Request Dialog',
 
     // Footer
+    footer_brand_subtitle: 'Recycling & Collection Service',
     footer_tagline: 'Turning unwanted materials into new possibilities.',
     footer_description: 'We collect recyclable scrap aluminium, copper, brass, iron, steel, motors, and e-waste directly from households and businesses.',
     footer_pickup_btn: '🚚 Request Scrap Pickup',
@@ -421,6 +437,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
 
   bm: {
     // Navigation & Header
+    nav_brand_subtitle: 'Barang Lusuh & Kitar Semula Malaysia',
     nav_home: 'Laman Utama',
     nav_about: 'Tentang Kami',
     nav_materials: 'Bahan Diterima',
@@ -439,6 +456,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     lang_switcher_title: 'Tukar bahasa / Switch language',
 
     // Hero Section
+    hero_location_badge: 'Pengumpulan Seluruh Malaysia',
     hero_badge: 'Pengambilan Profesional & Mesra Alam',
     hero_headline: 'Jual Barang Lusuh & Kitar Semula Logam Dengan Pantas',
     hero_subheadline: 'Kami mengambil profil aluminium, tembaga, gangsa, besi keluli, motor elektrik, kabel dan e-waste terus dari pintu rumah, bengkel, atau kilang anda. Timbangan telus dan perkhidmatan pantas.',
@@ -472,8 +490,12 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     about_commitment: 'Kami yakin bahawa pengasingan logam lusuh dan pengambilan yang telus merupakan asas ekonomi kitaran yang mampan. Pasukan kami memastikan setiap kilogram barang lusuh diproses secara bertanggungjawab.',
 
     // What We Collect
+    collect_badge: 'Katalog Bahan',
     collect_heading: 'Bahan Yang Kami Terima',
     collect_subheading: 'Kami menerima pelbagai jenis bahan logam dan barangan elektrik terpakai. Klik mana-mana kategori untuk melihat senarai terperinci dan panduan penyediaan.',
+    collect_filter_label: 'Pilih Kategori Bahan:',
+    collect_all_materials: 'Semua Bahan',
+    collect_materials_count: 'jenis bahan',
     collect_view_pricing: 'Lihat Panduan Harga',
     collect_common_items: 'Contoh Barang Diterima',
     collect_btn_sell: 'Jual Bahan Ini',
@@ -553,6 +575,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     cta_call_btn: '📞 Hubungi Sekarang',
 
     // Contact Section
+    contact_badge: 'Saluran Perhubungan',
     contact_heading: 'Tempah Pengambilan Barang Lusuh',
     contact_subheading: 'Pilih kaedah perhubungan yang anda inginkan untuk urusan pengambilan dan pertanyaan harga:',
     contact_call_title: 'Panggilan Telefon',
@@ -571,6 +594,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     contact_open_dialog_btn: '🚚 Buka Borang Permintaan Pengambilan',
 
     // Footer
+    footer_brand_subtitle: 'Perkhidmatan Kitar Semula & Pengambilan',
     footer_tagline: 'Mengubah bahan terbuang menjadi peluang baharu.',
     footer_description: 'Kami mengumpul aluminium, tembaga, besi keluli, motor elektrik, dan sisa elektronik terus dari rumah dan premis perniagaan anda.',
     footer_pickup_btn: '🚚 Tempah Pengambilan Barang',

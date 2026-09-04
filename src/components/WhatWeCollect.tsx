@@ -104,7 +104,7 @@ export const WhatWeCollect: React.FC<WhatWeCollectProps> = ({ onRequestPickup })
           <div>
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold tracking-wide uppercase mb-2">
               <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-              <span>{isBM ? 'Katalog Bahan' : 'Material Catalog'}</span>
+              <span>{t('collect_badge')}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
               {t('collect_heading')}
@@ -127,12 +127,12 @@ export const WhatWeCollect: React.FC<WhatWeCollectProps> = ({ onRequestPickup })
         <div className="mb-8 space-y-3 bg-white p-4 rounded-2xl border border-emerald-100 shadow-2xs">
           <div className="flex items-center justify-between gap-2">
             <span className="text-xs font-bold text-slate-600 uppercase tracking-wider">
-              {isBM ? 'Pilih Kategori Bahan:' : 'Filter by Category:'}
+              {t('collect_filter_label')}
             </span>
             <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-100">
               <Layers className="w-3.5 h-3.5 text-emerald-600" />
               <span>
-                {filteredMaterials.length} / {ACCEPTED_MATERIALS.length} {isBM ? 'jenis bahan' : 'materials'}
+                {filteredMaterials.length} / {ACCEPTED_MATERIALS.length} {t('collect_materials_count')}
               </span>
             </div>
           </div>
@@ -146,7 +146,7 @@ export const WhatWeCollect: React.FC<WhatWeCollectProps> = ({ onRequestPickup })
                   : 'bg-slate-50 text-slate-700 border border-slate-200 hover:bg-emerald-50 hover:border-emerald-200'
               }`}
             >
-              {isBM ? `Semua Bahan (${ACCEPTED_MATERIALS.length})` : `All Materials (${ACCEPTED_MATERIALS.length})`}
+              {t('collect_all_materials')} ({ACCEPTED_MATERIALS.length})
             </button>
             {categories.map((cat) => (
               <button
